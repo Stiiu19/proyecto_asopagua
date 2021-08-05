@@ -1,0 +1,109 @@
+/* =============================================================
+Here you will find the "Color Pickers" CSS attributes. You can change them by going to your Admin Panel at Themes > Options.
+If you want to add more pickers to your store's set, or wanna know more about what you can on the code visit the following link https://jumpseller.com/support/creating-a-custom-html-theme#special-variables
+
+Â© Copyright Mega. Powered by Jumpseller
+============================================================= */
+
+/* =============================================================
+COLOR PICKERS
+============================================================= */
+
+/* Store Background | Default: #FFF */
+body {
+    background-color: #ffffff;
+    color: #003333;
+    font-size: 16px !important;
+  }
+  
+  header .menu-area .navbar li a.nav-link,
+  h1, h2, h3, h4, h5, h6,
+  .product-block h3 a {
+    color: #003333;
+  }
+  
+  a {color: #006262!important; }
+  
+  
+  .navbar-inverse,
+  .btn.primary,
+  header .header-cart .cart-size,
+  header .menu-area .category-menu-trigger,
+  h1.block-header:after,
+  h2.block-header:after,
+  footer h5:before,
+  #price-range .btn  {
+    background-color: #84a14f !important;
+  }
+  
+  a:hover,
+  header nav#category-menu li:hover > a.nav-link,
+  .header-cart-product__price,
+  .product-block .caption .price,
+  footer .powered-by a,
+  .product-page .product-form_price,
+  .product-table__number-price,
+  .cart-summary__products-info .order-product-subtotal .new,
+  header .menu-area .navbar-nav ul.multi-level li:hover > a{
+    color: #84a14f!important;
+  }
+  .toast, .toast-success {background-color: #84a14f!important;}
+  .toast-message a {color: #fff!important; text-decoration: underline!important;}
+  
+  /* General */
+  header .preheader,
+  .owl-nav button:hover {background: #006262 !important; color: #fff!important; border-color: #006262!important;}
+  
+  .btn.secondary,
+  .owl-carousel .owl-dots button.active span,
+  #home-quick-links a.quick-link_link:before,
+  .blog-list .home-blog_link:before,
+  #newsletter,
+  .powered-by,
+  #accordionFaq .faq-title,
+  .active .steps_number,
+  #mobile-menu li a:before {
+    background-color: #006262 !important;
+    color: #fff;
+  }
+  
+  .btn.btn-outline-secondary {border-color: #006262; color: #006262!important;}
+  .btn.btn-outline-secondary:hover {background-color: #006262; color: #fff!important;}
+  
+  #home-features .home-features_icon,
+  footer h5,
+  footer .social a,
+  footer .container:first-child,
+  footer .container:first-child a{
+    color: #006262;
+  }
+  
+  .owl-carousel .owl-dots button span  {
+    border-color: #006262!important;
+  }
+  
+  /* Featured Categories */
+  .featured-category-image-title {
+    background-color: #006262 !important;
+    box-shadow: 5px 0 0 #006262, -5px 0 0 #006262;
+  }
+  
+  /* Sliders */
+  #banners-area .slide_table.slide_with_text:before {
+    opacity: 0;
+  }
+  
+  #banners-area .slide_table.slide_with_text:before {
+    background-color: #000000;
+  }
+  
+  /* Carousel thumbs active */
+  #product-carousel .owl-thumb-item.active:after {
+    -moz-box-shadow: inset 0 0 0px 1px #006262;
+    -webkit-box-shadow: inset 0 0 0px 1px #006262;
+    box-shadow: inset 0 0 0px 1px #006262;
+  }
+  
+  .product-badge-sale {
+    background-color: #84a14f!important;
+  }
